@@ -6,7 +6,7 @@
     prom blues : #22dee1 , rgba(127, 254, 222, 0.8)
 } */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -22,20 +22,20 @@ body{
 }
 
 /* Header Starts */
-header{
+header {
     height: 12vh;
     display: flex;
     /* border: 2px solid red; */
-    background: rgba( 96, 228, 230, 0.25 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    padding: 10px 20px ;
+    background: rgba(96, 228, 230, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 10px 20px;
     width: 100%;
     position: fixed;
     z-index: 100;
 }
 
-#logo{
+#logo {
     /* border: 2px solid red; */
     font-size: 2.8em;
     font-weight: 700;
@@ -43,15 +43,15 @@ header{
     align-items: flex-end;
     justify-content: flex-end;
     flex: 0.7;
-    padding: 0 40px 0  0;
+    padding: 0 40px 0 0;
     color: white;
 }
 
-header span{
+header span {
     color: rgb(34, 222, 225);
 }
 
-ul{ 
+ul {
     font-size: 1em;
     font-weight: 500;
     display: flex;
@@ -66,17 +66,17 @@ ul{
 
 }
 
-ul li a{
+ul li a {
     color: white;
     text-decoration: none;
     transition: all 0.4s;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: rgb(34, 222, 225);
 }
 
-.like-btn{
+.like-btn {
     flex: 0.7;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ ul li a:hover{
     /* border: 2px solid red; */
 }
 
-.like-btn button{
+.like-btn button {
     height: 7vh;
     font-size: 1.1em;
     background-color: #22dee1;
@@ -101,19 +101,20 @@ ul li a:hover{
     width: 60%;
 }
 
-.like-btn button img{
-   align-items: flex-start;
+.like-btn button img {
+    align-items: flex-start;
     width: 20px;
 }
 
-.like-btn button:hover{
-    background-color:#13c0c3;
+.like-btn button:hover {
+    background-color: #13c0c3;
     transform: scale(1.15);
 }
+
 /* Header Ends*/
 
 /* Intro Starts */
-#intro-sec{
+#intro-sec {
     margin-top: 12vh;
     width: 100%;
     height: 88vh;
@@ -123,40 +124,40 @@ ul li a:hover{
     overflow: hidden;
     justify-content: center;
     background-color: #101010;
-    box-shadow: inset 0px 0px 20px #000000 ;
+    box-shadow: inset 0px 0px 20px #000000;
     padding: 40px 0;
 }
 
-.content{
+.content {
     width: 40vw;
     /* border: 2px solid red; */
 }
 
-.content h1{
+.content h1 {
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
-.content h3{
+.content h3 {
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
-.content h4{
+.content h4 {
     color: #efbfbf;
     letter-spacing: 2px;
     font-size: 20px;
 }
 
-.newsletter form{
+.newsletter form {
     width: 380px;
     max-width: 100%;
-    position: relative;                          
+    position: relative;
 }
 
-.newsletter form input:first-child{
+.newsletter form input:first-child {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -165,11 +166,11 @@ ul li a:hover{
     border-radius: 20px;
 }
 
-.newsletter form input:last-child{
-    position:absolute;                    
+.newsletter form input:last-child {
+    position: absolute;
     display: inline-block;
     outline: none;
-    border:none;
+    border: none;
     padding: 11px 30px;
     border-radius: 30px;
     background-color: #22dee1;
@@ -179,7 +180,8 @@ ul li a:hover{
     right: 6px;
     cursor: pointer;
 }
-.content-img{
+
+.content-img {
     /* border: 2px solid red; */
     width: 40vw;
     height: 100%;
@@ -188,16 +190,17 @@ ul li a:hover{
     justify-content: flex-end;
 }
 
-.content-img img{
+.content-img img {
     width: 90%;
     object-fit: contain;
-        /* border: 2px solid red; */
+    /* border: 2px solid red; */
 
 }
+
 /* Intro Ends */
 
 /* About Starts */
-#about-sec{
+#about-sec {
     background-color: #191919;
     width: 100%;
     height: 100vh;
@@ -210,7 +213,7 @@ ul li a:hover{
     gap: 90px;
 }
 
-.about-img{
+.about-img {
     width: 40%;
     height: 80vh;
     overflow: hidden;
@@ -218,36 +221,36 @@ ul li a:hover{
     /* border: 2px solid red; */
 }
 
-.about-img img{
+.about-img img {
     float: right;
     width: 80%;
     /* border: 2px solid red; */
 }
 
-.about{
+.about {
 
     width: 40%;
     /* border: 2px solid red; */
 }
 
-.about span{
+.about span {
     color: #22dee1;
 }
 
-.about h2{
+.about h2 {
     color: white;
     font-size: 75px;
     margin-bottom: 20px;
 }
 
-.about h5{
+.about h5 {
     color: white;
     font-size: 22px;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
 
-.about p{
+.about p {
     color: #efbfbf;
     /* text-align: justify; */
     line-height: 28px;
@@ -255,52 +258,53 @@ ul li a:hover{
     margin-bottom: 25px;
 }
 
-.about button{
+.about button {
     background-color: #22dee1;
     /* #22dee1    blue color  */
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid transparent;
     border-radius: 30px;
     padding: 10px 25px;
-    transition: 0.4s; 
+    transition: 0.4s;
 }
 
-.about button:hover{
+.about button:hover {
     background-color: transparent;
     border: 2px solid #22dee1;
     cursor: pointer;
 }
+
 /* About Ends */
 
 /* Education Starts */
-#edu-sec{
+#edu-sec {
     width: 100%;
     height: 100vh;
     background-color: #101010;
     padding: 100px 0px;
-    box-shadow: inset 0px 0px 20px #000000 ;
+    box-shadow: inset 0px 0px 20px #000000;
 }
 
-#edu-sec .edu-title h2{
+#edu-sec .edu-title h2 {
     width: 100%;
     text-align: center;
     color: white;
     font-size: 75px;
     font-weight: bold;
     /* margin: 35px auto; */
-    
+
 }
 
-#edu-sec .edu-box{
+#edu-sec .edu-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
 }
 
-#edu-sec .edu-cards{
+#edu-sec .edu-cards {
     height: 450px;
     width: 345px;
     padding: 20px 35px;
@@ -311,57 +315,64 @@ ul li a:hover{
     text-align: center;
 }
 
-#edu-sec .edu-cards:hover{
-    box-shadow: inset 0px 0px 5px white,0px 0px 10px #000000 ;
+#edu-sec .edu-cards:hover {
+    box-shadow: inset 0px 0px 5px white, 0px 0px 10px #000000;
     transition: .2s;
     transform: scale(1.1);
 }
 
-.edu-cards i{
+.edu-cards i {
     display: block;
     font-size: 40px;
     text-align: center;
     margin: 25px 0px;
     color: #22dee1;
 }
-#edu-sec .edu-cards p:nth-child(2){
+
+#edu-sec .edu-cards p:nth-child(2) {
     color: white;
     margin: 10px 0px 6px 0px;
     font-size: 24px;
     font-weight: bold;
 }
-#edu-sec .edu-cards p:nth-child(3){
+
+#edu-sec .edu-cards p:nth-child(3) {
     color: white;
     margin: 0px 0px 35px 0px;
     font-size: 20px;
     font-weight: bold;
 }
 
-#edu-sec .edu-cards p:nth-child(4),p:nth-child(7),p:nth-child(10){
+#edu-sec .edu-cards p:nth-child(4),
+p:nth-child(7),
+p:nth-child(10) {
     text-align: left;
     color: white;
     margin: 20px 0px 5px 0px;
 }
 
-#edu-sec .edu-cards p:nth-child(5),p:nth-child(8),p:nth-child(11){
-    color:#efbfbf;
+#edu-sec .edu-cards p:nth-child(5),
+p:nth-child(8),
+p:nth-child(11) {
+    color: #efbfbf;
     font-size: 17px;
     margin: 0px 0px 20px 0px;
 }
+
 /* Education Ends */
 
 /* Skills Starts */
-#skills-sec{
+#skills-sec {
     width: 100%;
     padding: 100px 90px;
     background-color: #191919;
 }
 
-#skills-sec span{
+#skills-sec span {
     color: #22dee1;
 }
 
-#skills-sec .skill-title h2{
+#skills-sec .skill-title h2 {
     width: 100%;
     text-align: center;
     color: white;
@@ -370,21 +381,22 @@ ul li a:hover{
     margin: 25px auto;
 }
 
-.skill-box{
+.skill-box {
     display: flex;
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
-    
+
 }
 
-.skill-sub-box{
+.skill-sub-box {
     display: flex;
     /* flex-direction: row; */
     align-items: center;
     justify-content: center;
 }
-.skill-sub-box .t-card{
+
+.skill-sub-box .t-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -401,7 +413,7 @@ ul li a:hover{
     box-shadow: inset 0px 0px 50px #000000;
 }
 
-.skill-sub-box .cards{
+.skill-sub-box .cards {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -417,66 +429,68 @@ ul li a:hover{
     /* box-shadow: inset 0px 0px 20px #000000; */
 }
 
-.skill-sub-box .cards:hover{
+.skill-sub-box .cards:hover {
     font-size: 0px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    box-shadow: 0px 0px 5px white,0px 0px 10px #000000,0px 0px 10px #22dee1  ;
+    box-shadow: 0px 0px 5px white, 0px 0px 10px #000000, 0px 0px 10px #22dee1;
     transition: .2s;
 }
 
-#photoshop:hover{
-    background-image: url("./icons/photoshop.png");  
-}
-#illustrator:hover{
-    background-image: url("./icons/illustrator.png"); 
-}
-#premier:hover{
-    background-image: url("./icons/premier.png");   
+/* #photoshop:hover {
+    background-image: url("./icons/flutter.png");
 }
 
-#python:hover{
-    background-image: url("./icons/python.png");  
+#illustrator:hover {
+    background-image: url("./icons/flutter.png");
 }
 
-#cpp:hover{
-    background-image: url("./icons/cpp.png");   
+#premier:hover {
+    background-image: url("./icons/premier.png");
 }
 
-#html:hover{
-    background-image: url("./icons/html.png");  
+#python:hover {
+    background-image: url("./icons/python.png");
 }
 
-#css:hover{
-    background-image: url("./icons/css.png");   
+#cpp:hover {
+    background-image: url("./icons/cpp.png");
 }
 
-#js:hover{
+#html:hover {
+    background-image: url("./icons/html.png");
+}
+
+#css:hover {
+    background-image: url("./icons/css.png");
+}
+
+#js:hover {
     background-image: url("./icons/js.png");
 }
 
-#webcrawl:hover{
+#webcrawl:hover {
     background-image: url("./icons/webcrawl.png");
 }
 
-#frontend:hover{
+#frontend:hover {
     background-image: url("./icons/front-end.png");
-}
+} */
 
 
 /* Skills Ends */
 
 /* Certification Starts */
-#certificate-sec{
+#certificate-sec {
     width: 100%;
     background-color: #101010;
     padding: 100px 0px;
-    box-shadow:  inset 0px 0px 20px #000000 ;
-    
+    box-shadow: inset 0px 0px 20px #000000;
+
 }
 
-#certificate-sec .certif-title h2{
+#certificate-sec .certif-title h2 {
     width: 100%;
     text-align: center;
     color: white;
@@ -486,15 +500,15 @@ ul li a:hover{
     /* border: 2px solid red; */
 }
 
-.certif-box{
+.certif-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-        /* border: 2px solid red; */
+    /* border: 2px solid red; */
 }
 
-#certificate-sec .cards{
+#certificate-sec .cards {
     display: flex;
     flex-direction: column;
     height: 420px;
@@ -505,16 +519,17 @@ ul li a:hover{
     margin: 15px;
     overflow: hidden;
     text-align: center;
-    box-shadow: inset 0px 0px 20px #000000, inset 0px 0px 60px #000000 ;
-    
+    box-shadow: inset 0px 0px 20px #000000, inset 0px 0px 60px #000000;
+
 }
 
-#certificate-sec .cards .certif-pic{
+#certificate-sec .cards .certif-pic {
     /* border: 2px solid green; */
-    min-height: 200px; 
-    margin-bottom: 30px;  
+    min-height: 200px;
+    margin-bottom: 30px;
 }
-.certif-pic img{
+
+.certif-pic img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -527,7 +542,7 @@ ul li a:hover{
     align-items: center;
 }
 
-#certificate-sec .cards .certif-text p{
+#certificate-sec .cards .certif-text p {
     color: #ffffff;
     font-weight: bold;
     font-size: 22px;
@@ -535,11 +550,11 @@ ul li a:hover{
 }
 
 
-.certif-text a{
+.certif-text a {
     width: 175px;
     background-color: #22dee1;
     /* #22dee1    blue color  */
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid transparent;
@@ -549,22 +564,23 @@ ul li a:hover{
     transition: .3s;
 }
 
-.certif-text a:hover{
+.certif-text a:hover {
     background-color: transparent;
     border: 2px solid #22dee1;
     cursor: pointer;
 
 }
+
 /* Certification Ends */
 
 /* Project Starts */
-#project-sec{
+#project-sec {
     width: 100%;
     padding: 100px 50px;
     background-color: #191919;
 }
 
-.proj-title h2{
+.proj-title h2 {
     width: 100%;
     text-align: center;
     color: white;
@@ -573,14 +589,15 @@ ul li a:hover{
     margin: 35px auto;
 
 }
-.proj-box{
+
+.proj-box {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-.proj-cards{
+.proj-cards {
     display: flex;
     flex-direction: column;
     height: 470px;
@@ -591,24 +608,26 @@ ul li a:hover{
     margin: 20px;
     overflow: hidden;
     text-align: center;
-    box-shadow: inset 0px 0px 20px #000000, inset 0px 0px 60px #000000 ;
+    box-shadow: inset 0px 0px 20px #000000, inset 0px 0px 60px #000000;
 
 }
-.proj-pic{
+
+.proj-pic {
     /* border: 2px solid green; */
     margin-bottom: 20px;
     min-height: 260px;
     /* overflow: hidden; */
 }
-.proj-pic img{
+
+.proj-pic img {
     /* border: 2px solid red; */
-    width:100%;
+    width: 100%;
     height: 250px;
     border-radius: 20px;
     /* object-fit: fill; */
 }
 
-.proj-cards .proj-text{
+.proj-cards .proj-text {
     /* border: 2px solid green; */
     /* text-align: center; */
     width: 100%;
@@ -618,13 +637,13 @@ ul li a:hover{
     margin-bottom: 10px;
 }
 
-.proj-btn{
+.proj-btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.proj-btn a{
+.proj-btn a {
     padding: 10px 25px;
     color: white;
     text-decoration: none;
@@ -640,38 +659,41 @@ ul li a:hover{
     align-items: center;
     justify-content: center;
 }
-.proj-btn a:hover{
+
+.proj-btn a:hover {
     transform: scale(1.1);
     background-color: transparent;
 }
 
 .proj-btn a.active {
     background-color: rgb(23, 195, 23);
-    box-shadow: inset -18px 17px 47px -6px rgba(0,0,0,0.5);
+    box-shadow: inset -18px 17px 47px -6px rgba(0, 0, 0, 0.5);
 
 }
 
-.proj-btn a.active:hover{
+.proj-btn a.active:hover {
     background-color: rgb(23, 195, 23);
     box-shadow: 0 0 0 0;
 
 }
-#project-sec span{
+
+#project-sec span {
     color: white;
 }
+
 /* Project Ends */
 
 /* Achievement Starts */
-#achievement-sec{
+#achievement-sec {
     width: 100%;
     height: 100vh;
     background-color: #101010;
     padding: 100px 0px;
-    box-shadow:  inset 0px 0px 20px #000000 ;
-    
+    box-shadow: inset 0px 0px 20px #000000;
+
 }
 
-.achieve-title h2{
+.achieve-title h2 {
     width: 100%;
     text-align: center;
     color: white;
@@ -680,7 +702,7 @@ ul li a:hover{
     margin: 35px auto;
 }
 
-.achieve-box{
+.achieve-box {
     width: 100%;
     height: 300px;
     /* border: 2px solid green; */
@@ -691,7 +713,7 @@ ul li a:hover{
 
 }
 
-.achieve-box i{
+.achieve-box i {
     color: #22dee1;
     font-size: 180px;
     padding: 20px;
@@ -701,47 +723,50 @@ ul li a:hover{
     border-radius: 20px;
 }
 
-.achieve-text p{
-    color:white;
+.achieve-text p {
+    color: white;
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.achieve-text :nth-child(2){
-    color:#efbfbf ;
+.achieve-text :nth-child(2) {
+    color: #efbfbf;
     font-size: 35px;
     font-weight: light;
     text-align: left;
     margin-bottom: 5px;
 }
-.achieve-text :nth-child(3){
-    color:#efbfbf ;
+
+.achieve-text :nth-child(3) {
+    color: #efbfbf;
     font-size: 20px;
     font-weight: light;
     text-align: left;
 
 }
 
-.achieve-text span{
+.achieve-text span {
     color: white;
     font-size: 120px;
     transition: 3.4s;
 
 }
-.achieve-text sup{
+
+.achieve-text sup {
     font-size: 60px;
     color: #22dee1;
 }
 
-.achieve-text span:hover{
+.achieve-text span:hover {
     font-size: 280px;
 
 }
+
 /* Achievement Ends */
 
 /* Hire Me Starts */
-#hire-sec{
+#hire-sec {
     width: 100%;
     height: 200px;
     background-color: #191919;
@@ -751,7 +776,7 @@ ul li a:hover{
     flex-direction: column;
 }
 
-#hire-sec p{
+#hire-sec p {
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -759,32 +784,33 @@ ul li a:hover{
 
 }
 
-#hire-sec .button-two{
+#hire-sec .button-two {
     background-color: #22dee1;
     /* #22dee1    blue color  */
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border: 2px solid transparent;
     border-radius: 30px;
     padding: 9px 22px;
     transition: .4s;
-    
+
 }
 
-#hire-sec .button-two:hover{
+#hire-sec .button-two:hover {
     background-color: transparent;
     border: 2px solid #22dee1;
     cursor: pointer;
 }
 
-#hire-sec p span{
+#hire-sec p span {
     color: #22dee1;
 }
+
 /* Hire Me Ends */
 
 /* Contact Ends */
-#contact-sec{
+#contact-sec {
     /* border: 2px solid green; */
     position: relative;
     width: 100%;
@@ -794,17 +820,17 @@ ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: inset 0px 0px 20px #000000 ;
+    box-shadow: inset 0px 0px 20px #000000;
 }
 
-#contact-sec p:nth-child(1){
+#contact-sec p:nth-child(1) {
     font-size: 30px;
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-#contact-sec p:nth-child(2){
+#contact-sec p:nth-child(2) {
     font-size: 17px;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
@@ -815,7 +841,7 @@ ul li a:hover{
     margin-bottom: 30px;
 }
 
-#contact-sec p:nth-child(3){
+#contact-sec p:nth-child(3) {
     display: flex;
     font-size: 18px;
     color: white;
@@ -826,12 +852,12 @@ ul li a:hover{
     gap: 10px;
 }
 
-#contact-sec p:nth-child(3) img{
+#contact-sec p:nth-child(3) img {
     width: 12%;
     display: inline-block;
 }
 
-#contact-sec p:nth-child(4){
+#contact-sec p:nth-child(4) {
     display: flex;
     font-size: 18px;
     color: white;
@@ -842,12 +868,12 @@ ul li a:hover{
     gap: 10px;
 }
 
-#contact-sec p:nth-child(4) img{
+#contact-sec p:nth-child(4) img {
     width: 12%;
     display: inline-block;
 }
 
-#contact-sec p:nth-child(5){
+#contact-sec p:nth-child(5) {
     display: flex;
     font-size: 18px;
     color: white;
@@ -858,18 +884,19 @@ ul li a:hover{
     gap: 10px;
 }
 
-#contact-sec p:nth-child(5) img{
+#contact-sec p:nth-child(5) img {
     width: 12%;
 }
 
-#contact-sec span{
+#contact-sec span {
     color: #22dee1;
 }
 
-.social{
+.social {
     display: flex;
 }
-.social a{
+
+.social a {
     width: 45px;
     height: 45px;
     /* border: 2px green solid; */
@@ -885,13 +912,14 @@ ul li a:hover{
     transition: all 0.4s;
 }
 
-.social a:hover{
-    transform: scale(1.3);   
+.social a:hover {
+    transform: scale(1.3);
 }
+
 /* Contact Starts */
 
 /* Footer Starts */
-footer{
+footer {
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -902,7 +930,8 @@ footer{
     /* border: 2px solid red; */
 }
 
-footer span{
+footer span {
     color: white;
 }
+
 /* Footer Ends */
