@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="./icons/icons96.png">
+
+    <!-- Title -->
+    <title>Mehdi's Portfolio</title>
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <header>
+        <div id="logo">Portfo <span>lio</span> </div>
+        <ul class="navbar">
+            <li><a href="#intro-sec">Home</a></li>
+            <li><a href="#about-sec">About</a></li>
+            <li><a href="#edu-sec">Education</a></li>
+            <li><a href="#skills-sec">Skills</a></li>
+            <li><a href="#certificate-sec">Certifications</a></li>
+            <li><a href="#project-sec">Projects</a></li>
+            <li><a href="#achievement-sec">Achievements</a></li>
+            <li><a href="#contact-sec">Contact</a></li>
+        </ul>
+        <div class="like-btn"> <button id="like-it">Like it <img src="./icons/heart.png" alt=""></button></div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Intro Starts -->
+    <section id="intro-sec">
+        <div class="content">
+            <h4>Hello, My name is</h4>
+            <h1>Mehdi <span>Abbas</span> </h1>
+            <h3>I am a Flutter Frontend Developer</h3>
+            <div class="newsletter">
+                <form action="">
+                    <input type="email" name="e-mail" id="mail" placeholder="Enter Your E-mail">
+                    <input type="submit" value="Lets start">
+                </form>
+            </div>
+        </div>
+
+        <div class="content-img"><img src="./images/LAST.jpg" alt=""></div>
+    </section>
+    <!-- Intro Ends -->
+
+    <!-- About Starts -->
+    <section id="about-sec">
+        <div class="about-img">
+            <img src="./images/self_mehdi.jpeg" alt="">
+        </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <h5>Developer <span>& Programmer</span> </h5>
+            <p>Hi, <span>Mehdi Abbas</span> here. I am a Flutter Developer certified from SMIT. Passionate about
+                technology and dedicated to learning new things in this field, I have acquired skills in <span>front-end
+                    development, Python, Excel VBA, Google Apps Script, and SQL</span>.</p>
+
+            <p>To solve real-world problems, I collaborate with a team to turn ideas into visualizations using Flutter.
+                Additionally, I provide business solutions using AI and Automation. I've been actively working in the
+                field of <span>Technology and AI since 2018</span>.</p>
+
+            <p>If you want to know more about me, then...</p>
+
+            <button type="button">Let's Talk</button>
+        </div>
+    </section>
+    <!-- About Ends -->
+
+
+    <!-- Education Starts -->
+    <section id="edu-sec">
+        <div class="edu-title">
+            <h2>Education</h2>
+        </div>
+        <div class="edu-box">
+            <!-- <div class="edu-cards">
+                <i class="fa-solid fa-school"></i>
+                <p>Matriculation</p>
+                <p>(Science)</p>
+                <p>From:</p>
+                <p>Citizens Public Secondary school</p>
+                <hr>
+                <p>Tenure:</p>
+                <p>2007 - 2019</p>
+                <hr>
+                <p>Passed with:</p>
+                <p>A - one grade with 85.5%</p>
+            </div> -->
+            <div class="edu-cards">
+                <i class="fa-solid fa-building-columns"></i>
+                <p>Bachelors</p>
+                <p>(Commerce)</p>
+                <p>From:</p>
+                <p>University of Karachi</p>
+                <hr>
+                <p>Year:</p>
+                <p>2014</p>
+                <hr>
+                <p>Passed with:</p>
+                <p>2nd Division</p>
+            </div>
+            <div class="edu-cards">
+
+                <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+                <p>Masters</p>
+                <p>(Masters in business Administration)</p>
+                <p>From:</p>
+                <p>Iqra University</p>
+                <hr>
+                <p>Year:</p>
+                <p>2019</p>
+                <hr>
+                <p>Passed with:</p>
+                <p>Present CGPA: 3.21</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Education Ends -->
+
+
+    <!-- Skills Starts -->
+    <section id="skills-sec">
+        <div class="skill-title">
+            <h2>My Sk<span>i</span>llse<span>t</span></h2>
+        </div>
+        <div class="skill-box">
+            <div class="skill-sub-box">
+                <div class="t-card">
+                    <h2>Flutter</h2>
+                </div>
+                <div class="cards" id="flutter">
+                    <p>Front-End</p>
+                </div>
+                <div class="cards" id="illustrator">
+                    <p>State Management</p>
+                </div>
+                <div class="cards" id="premier">
+                    <p>Backend</p>
+                </div>
+            </div>
+            <div class="skill-sub-box">
+                <div class="t-card">
+                    <h2>Programming Languages</h2>
+                </div>
+                <div class="cards" id="python">
+                    <p>Python</p>
+                </div>
+                <div class="cards" id="cpp">
+                    <p>C++</p>
+                </div>
+                <div class="cards" id="html">
+                    <p>HTML</p>
+                </div>
+                <div class="cards" id="css">
+                    <p>SQL</p>
+                </div>
+                <div class="cards" id="js">
+                    <p>Google Apps Script</p>
+                </div>
+
+            </div>
+            <div class="skill-sub-box">
+                <div class="t-card">
+                    <h2>Related Skills</h2>
+                </div>
+                <div class="cards" id="webcrawl">
+                    <p>Web-Scrapping using Python</p>
+                </div>
+                <div class="cards" id="frontend">
+                    Automation of routine Task
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Ends -->
+
+
+    <!-- Certifications Starts -->
+    <!-- <section id="certificate-sec">
+        <div class="certif-title">
+            <h2>Certifications</h2>
+        </div>
+        <div class="certif-box">
+            <div class="cards">
+                <div class="certif-pic"><img src="./images/C1.PNG" alt=""></div>
+
+                <div class="certif-text">
+                    <p>Getting Started with Python</p>
+                    <a href="./certificates/C1.pdf" target="_blank" class="certif-btn"> See Cerificate</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="certif-pic"><img src="./images/C2.PNG" alt=""></div>
+
+                <div class="certif-text">
+                    <p id="ds">Python Data Structures</p>
+                    <a href="./certificates/C2.pdf" target="_blank"> See Cerificate</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="certif-pic"><img src="./images/C3.PNG" alt=""></div>
+
+                <div class="certif-text">
+                    <p>Python to Access Web Data</p>
+                    <a href="./certificates/C3.pdf" target="_blank"> See Cerificate</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="certif-pic"><img src="./images/C4.PNG" alt=""></div>
+
+                <div class="certif-text">
+                    <p>Intro to Front-End Development</p>
+                    <a href="./certificates/C4.pdf" target="_blank"> See Cerificate</a>
+                </div>
+            </div>
+    </section> -->
+    <!-- Certifications Ends -->
+
+
+    <!-- Project Starts -->
+    <section id="project-sec">
+        <div class="proj-title">
+            <h2>Projects</h2>
+        </div>
+        <div class="proj-box">
+            <div class="proj-cards">
+                <div class="proj-pic"><img src="./images/tasbeeh_counter.PNG" alt=""></div>
+                <div class="proj-text">
+                    <h2>Tasbeeh <span>Counter</span></h2>
+                </div>
+                <div class="proj-btn">
+                    <a href="https://github.com/mehdinathani/Flutter-Tasbeeh-Counter" target="_blank"> Source Code
+                        Github</a>
+                    <a class="active" href="https://mehdinathani.github.io/tasbeehcounter/" target="_blank">See
+                        Interface</a>
+                </div>
+            </div>
+            <div class="proj-cards">
+                <div class="proj-pic"><img src="./images/coming_soon.png" alt=""></div>
+                <div class="proj-text">
+                    <h2><span> Coming </span>Soon</h2>
+                </div>
+                <div class="proj-btn">
+                    <a href="https://github.com/mehdinathani" target="_blank"> Show in Github</a>
+                    <a class="active" href="https://mehdinathani.github.io/" target="_blank">Lets
+                        Draw</a>
+                </div>
+            </div>
+        </div>
+        <div class="proj-box">
+            <div class="proj-cards">
+                <div class="proj-pic"><img src="./images/coming_soon.png" alt=""></div>
+                <div class="proj-text">
+                    <h2><span> Coming </span>Soon</h2>
+                </div>
+                <div class="proj-btn">
+                    <a href="https://github.com/mehdinathani" target="_blank"> Show in Github</a>
+                    <a class="active" href="https://mehdinathani.github.io/" target="_blank">Lets
+                        Draw</a>
+                </div>
+            </div>
+
+
+            <div class="proj-cards">
+                <div class="proj-pic"><img src="./images/coming_soon.png" alt=""></div>
+                <div class="proj-text">
+                    <h2><span> Coming </span>Soon</h2>
+                </div>
+                <div class="proj-btn">
+                    <a href="https://github.com/mehdinathani" target="_blank"> Show in Github</a>
+                    <a class="active" href="https://mehdinathani.github.io/" target="_blank">Lets
+                        Draw</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- Project Ends -->
+
+
+    <!-- Achievments Starts -->
+    <section id="achievement-sec">
+        <div class="achieve-title">
+            <h2>Achievements</h2>
+        </div>
+        <div class="achieve-box">
+            <div class="medal">
+                <!-- <i class="fa-solid fa-award"></i> -->
+                <i class="fa-solid fa-medal"></i>
+            </div>
+            <div class="achieve-text">
+                <p> Devathon 1.0</p>
+                <p>Selected for Laptop Prize</p>
+                <p> on Outstanding Achievement</p>
+            </div>
+        </div>
+    </section>
+    <!-- Achievments Ends -->
+
+    <!-- Hire Me Starts -->
+    <section id="hire-sec">
+        <p>Let me get your ideas into <span>visualizations</span> with Flutter</p>
+        <a href="https://www.fiverr.com/mehdinathani" class="button-two" target="_blank">Hire me</a>
+    </section>
+    <!-- Hire Me Ends -->
+
+    <!-- Contact Starts -->
+    <section id="contact-sec">
+        <p>Mehdi Abbas</p>
+        <p><span> Thanks</span> for visiting! Hope, <span>You like it</span> ...</p>
+        <p><img src="./icons/mail.png" alt=""> mehdinathani@gmail.com</p>
+        <!-- <p><img src="./icons/phone.png" alt=""> +92 307 0075922</p> -->
+        <p><img src="./icons/location.png" alt=""> Karachi, Pakistan</p>
+        <div class="social">
+            <a href="https://www.facebook.com/mehdinathani/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mehdinathani/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://www.linkedin.com/in/mehdinathanii/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/mehdinathani" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+    <!-- Contact Ends -->
+
+    <footer id="copyright">
+        Copyright&nbsp<span>©</span> &nbspby M. Mehdi Abbas, 2023
+    </footer>
+</body>
+
+</html>
