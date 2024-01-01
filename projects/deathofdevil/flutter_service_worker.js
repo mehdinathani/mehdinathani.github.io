@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "64e099f766ad2d7b05fa204cf5317e4b",
-"assets/AssetManifest.bin.json": "7b425e899c7172b69dafc1a8537ede93",
-"assets/AssetManifest.json": "0d2007a10df71c709d92114f14d221d9",
+const RESOURCES = {"assets/AssetManifest.bin": "5a3e4ea9677623b783ba6d712d721332",
+"assets/AssetManifest.bin.json": "a2a2f022ebd2ca8d76a5a5b5985b921f",
+"assets/AssetManifest.json": "e9e75bc1e65132ca180aefc39cd98d2a",
 "assets/assets/audio/babycrysound.mp3": "8a1b8f3f30eeddb9d077b4f31f76ef22",
 "assets/assets/audio/bgsound.mp3": "fc55d2fe73a6d8be47a4d60388299633",
 "assets/assets/audio/loadGun.mp3": "0ede02a408bbd8142fbeb9b1c844c0a2",
@@ -18,6 +18,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "64e099f766ad2d7b05fa204cf5317e4b
 "assets/assets/images/bg1.jpg": "71bb833d841075325dee971458d69242",
 "assets/assets/images/bg2.jpg": "80a5a17f9feb27439a6d40b1f66b8845",
 "assets/assets/images/bg3.jpg": "92e3f6ef492218685274f73609f72fba",
+"assets/assets/images/bg4.jpg": "3c039cf78de4dbeea5227efd0566a652",
 "assets/assets/images/bg4.png": "03dfcd2f4d0ce0b828f54823c127a480",
 "assets/assets/images/boy.png": "960e1eddc0c0c59ffa4aa66eb313d878",
 "assets/assets/images/Bronze_1.png": "6c2af7f3a3d35588ecca68baee8c5ce1",
@@ -39,6 +40,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "64e099f766ad2d7b05fa204cf5317e4b
 "assets/assets/images/dp014.png": "643be9b94af5cd0491802775056042f5",
 "assets/assets/images/dp015.png": "2b9f111c153a3b0784eb6a5d1d58110d",
 "assets/assets/images/dp016.png": "0a8e93365a87bb8a1dfedc14b4e6a7ce",
+"assets/assets/images/dp017.png": "195dc6ffc805ca9cde7c0a5250c40d76",
+"assets/assets/images/dp018.png": "c80b3c57e881f04822760d002ccc3fa1",
+"assets/assets/images/dp019.png": "fbd0c0dddaf9eb96b3115d59a80bcc99",
+"assets/assets/images/dp020.png": "ace907de94e81f18255fdfb4b9c19753",
+"assets/assets/images/dp021.png": "2dd4bacb7314e253b6abcc51a975a007",
+"assets/assets/images/dp022.png": "926e2cf6e586f52a283f67ee45e988fc",
+"assets/assets/images/dp023.png": "0c6aae3c46f779e5c4f2072fb6178516",
+"assets/assets/images/dp024.png": "a71158cc6cf4b51345783364e14586e4",
 "assets/assets/images/enegy%2520symbol.png": "6fe1d6b5b180bfc3711021c773130137",
 "assets/assets/images/Exitbutton.png": "8d4f248526fd456c3c9e144c505c6576",
 "assets/assets/images/forest_bridge.png": "38f4a77875ee942bf9ddd3a857378229",
@@ -133,9 +142,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "64e099f766ad2d7b05fa204cf5317e4b
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/mstile-150x150.png": "a9a3e617ad6b8837e7260c421c2fc62c",
-"index.html": "0cb84ae254bd412ccab7eb38069afe58",
-"/": "0cb84ae254bd412ccab7eb38069afe58",
-"main.dart.js": "6a7cd43d4bd61015bcd2b141e601301f",
+"index.html": "0fa1ce5b8757bb37eeede8b5fe05575c",
+"/": "0fa1ce5b8757bb37eeede8b5fe05575c",
+"main.dart.js": "b7f8c387f7f1b5f5331c004f8ba39970",
 "manifest.json": "b178a6912930786d13fffde94c61fa5f",
 "version.json": "c36c37d33c0a7f300e4f927e6270984b"};
 // The application shell files that are downloaded before a service worker can
