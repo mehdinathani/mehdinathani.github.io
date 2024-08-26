@@ -1,6 +1,6 @@
 {
-    "name": "bankwisewithgetx",
-    "short_name": "bankwisewithgetx",
+    "name": "bankwise",
+    "short_name": "bankwise",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
